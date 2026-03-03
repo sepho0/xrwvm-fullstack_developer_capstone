@@ -124,3 +124,55 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+
+
+  /* ===== Contact Page Layout (IBM style sample) ===== */
+
+.contact-main-card{
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 30px;
+    background-color: #f2f2f2;
+  }
+  
+  .contact-top-image{
+    width: 60%;
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+  
+  .contact-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-left{
+    width: 40%;
+    text-align: center;
+  }
+  
+  .contact-left img{
+    width: 150px;
+  }
+  
+  .vertical-line{
+    width: 3px;
+    height: 250px;
+    background-color: black;
+  }
+  
+  .contact-right{
+    width: 50%;
+    font-size: 18px;
+    color: rgb(97, 64, 128);
+    line-height: 1.8;
+  }
+  
+  .contact-right b{
+    color: rgb(97, 64, 128);
+  }
