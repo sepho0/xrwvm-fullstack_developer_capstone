@@ -28,7 +28,7 @@ def get_request(endpoint, **kwargs):
     except:
         # If any error occurs
         print("Network exception occurred")
-
+        return None 
 # Add code for get requests to back end
 
 def analyze_review_sentiments(text):
